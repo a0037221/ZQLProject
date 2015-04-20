@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E8B3514B1AE4F7C00061DFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B3514A1AE4F7C00061DFFB /* main.m */; };
-		E8B3514E1AE4F7C00061DFFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B3514D1AE4F7C00061DFFB /* AppDelegate.m */; };
-		E8B351511AE4F7C00061DFFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B351501AE4F7C00061DFFB /* ViewController.m */; };
 		E8B351541AE4F7C00061DFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B351521AE4F7C00061DFFB /* Main.storyboard */; };
 		E8B351561AE4F7C00061DFFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B351551AE4F7C00061DFFB /* Images.xcassets */; };
 		E8B351591AE4F7C00061DFFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8B351571AE4F7C00061DFFB /* LaunchScreen.xib */; };
 		E8B351651AE4F7C00061DFFB /* _0____lianxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B351641AE4F7C00061DFFB /* _0____lianxiTests.m */; };
+		E8B351741AE4F82F0061DFFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B351721AE4F82F0061DFFB /* AppDelegate.m */; };
+		E8B351771AE4F8660061DFFB /* ZQShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B351761AE4F8660061DFFB /* ZQShopViewController.m */; };
+		E8B351791AE4F8770061DFFB /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8B351781AE4F8770061DFFB /* 1.plist */; };
+		E8B3517C1AE4F8A20061DFFB /* ZQShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B3517B1AE4F8A20061DFFB /* ZQShopCell.m */; };
+		E8B3517F1AE4F8CB0061DFFB /* ZQWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B3517E1AE4F8CB0061DFFB /* ZQWaterFlowLayout.m */; };
+		E8B351821AE4F92F0061DFFB /* ZQShop.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B351811AE4F92F0061DFFB /* ZQShop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,23 @@
 		E8B351451AE4F7C00061DFFB /* 10-瀑布流lianxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-瀑布流lianxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B351491AE4F7C00061DFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8B3514A1AE4F7C00061DFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E8B3514C1AE4F7C00061DFFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E8B3514D1AE4F7C00061DFFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E8B3514F1AE4F7C00061DFFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E8B351501AE4F7C00061DFFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E8B351531AE4F7C00061DFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B351551AE4F7C00061DFFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E8B351581AE4F7C00061DFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E8B3515E1AE4F7C00061DFFB /* 10-瀑布流lianxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-瀑布流lianxiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B351631AE4F7C00061DFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8B351641AE4F7C00061DFFB /* _0____lianxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0____lianxiTests.m"; sourceTree = "<group>"; };
+		E8B351711AE4F82F0061DFFB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8B351721AE4F82F0061DFFB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8B351751AE4F8660061DFFB /* ZQShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQShopViewController.h; sourceTree = "<group>"; };
+		E8B351761AE4F8660061DFFB /* ZQShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQShopViewController.m; sourceTree = "<group>"; };
+		E8B351781AE4F8770061DFFB /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		E8B3517A1AE4F8A20061DFFB /* ZQShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQShopCell.h; sourceTree = "<group>"; };
+		E8B3517B1AE4F8A20061DFFB /* ZQShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQShopCell.m; sourceTree = "<group>"; };
+		E8B3517D1AE4F8CB0061DFFB /* ZQWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQWaterFlowLayout.h; sourceTree = "<group>"; };
+		E8B3517E1AE4F8CB0061DFFB /* ZQWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQWaterFlowLayout.m; sourceTree = "<group>"; };
+		E8B351801AE4F92F0061DFFB /* ZQShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQShop.h; sourceTree = "<group>"; };
+		E8B351811AE4F92F0061DFFB /* ZQShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQShop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +92,10 @@
 		E8B351471AE4F7C00061DFFB /* 10-瀑布流lianxi */ = {
 			isa = PBXGroup;
 			children = (
-				E8B3514C1AE4F7C00061DFFB /* AppDelegate.h */,
-				E8B3514D1AE4F7C00061DFFB /* AppDelegate.m */,
-				E8B3514F1AE4F7C00061DFFB /* ViewController.h */,
-				E8B351501AE4F7C00061DFFB /* ViewController.m */,
-				E8B351521AE4F7C00061DFFB /* Main.storyboard */,
-				E8B351551AE4F7C00061DFFB /* Images.xcassets */,
-				E8B351571AE4F7C00061DFFB /* LaunchScreen.xib */,
+				E8B3516E1AE4F82F0061DFFB /* Controllers */,
+				E8B3516F1AE4F82F0061DFFB /* Models */,
+				E8B351701AE4F82F0061DFFB /* Others */,
+				E8B351731AE4F82F0061DFFB /* Views */,
 				E8B351481AE4F7C00061DFFB /* Supporting Files */,
 			);
 			path = "10-瀑布流lianxi";
@@ -96,6 +104,8 @@
 		E8B351481AE4F7C00061DFFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8B351781AE4F8770061DFFB /* 1.plist */,
+				E8B351551AE4F7C00061DFFB /* Images.xcassets */,
 				E8B351491AE4F7C00061DFFB /* Info.plist */,
 				E8B3514A1AE4F7C00061DFFB /* main.m */,
 			);
@@ -117,6 +127,46 @@
 				E8B351631AE4F7C00061DFFB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8B3516E1AE4F82F0061DFFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B351751AE4F8660061DFFB /* ZQShopViewController.h */,
+				E8B351761AE4F8660061DFFB /* ZQShopViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E8B3516F1AE4F82F0061DFFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8B351801AE4F92F0061DFFB /* ZQShop.h */,
+				E8B351811AE4F92F0061DFFB /* ZQShop.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8B351701AE4F82F0061DFFB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E8B351711AE4F82F0061DFFB /* AppDelegate.h */,
+				E8B351721AE4F82F0061DFFB /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E8B351731AE4F82F0061DFFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8B351571AE4F7C00061DFFB /* LaunchScreen.xib */,
+				E8B351521AE4F7C00061DFFB /* Main.storyboard */,
+				E8B3517A1AE4F8A20061DFFB /* ZQShopCell.h */,
+				E8B3517B1AE4F8A20061DFFB /* ZQShopCell.m */,
+				E8B3517D1AE4F8CB0061DFFB /* ZQWaterFlowLayout.h */,
+				E8B3517E1AE4F8CB0061DFFB /* ZQWaterFlowLayout.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +251,7 @@
 			files = (
 				E8B351541AE4F7C00061DFFB /* Main.storyboard in Resources */,
 				E8B351591AE4F7C00061DFFB /* LaunchScreen.xib in Resources */,
+				E8B351791AE4F8770061DFFB /* 1.plist in Resources */,
 				E8B351561AE4F7C00061DFFB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B351511AE4F7C00061DFFB /* ViewController.m in Sources */,
-				E8B3514E1AE4F7C00061DFFB /* AppDelegate.m in Sources */,
+				E8B3517C1AE4F8A20061DFFB /* ZQShopCell.m in Sources */,
+				E8B351741AE4F82F0061DFFB /* AppDelegate.m in Sources */,
+				E8B3517F1AE4F8CB0061DFFB /* ZQWaterFlowLayout.m in Sources */,
 				E8B3514B1AE4F7C00061DFFB /* main.m in Sources */,
+				E8B351821AE4F92F0061DFFB /* ZQShop.m in Sources */,
+				E8B351771AE4F8660061DFFB /* ZQShopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +304,7 @@
 				E8B351531AE4F7C00061DFFB /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E8B351571AE4F7C00061DFFB /* LaunchScreen.xib */ = {
@@ -258,6 +313,7 @@
 				E8B351581AE4F7C00061DFFB /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
