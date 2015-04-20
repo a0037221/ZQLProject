@@ -10,4 +10,12 @@
 
 @interface ZQShop : NSObject
 
+@property(nonatomic,copy) NSString *img;
+@property(nonatomic,copy) NSString *price;
+@property(nonatomic,assign) int h;
+@property(nonatomic,assign) int w;
+
+- (instancetype)initWithDict:(NSDictionary *)dict;
++ (instancetype)shopWithDict:(NSDictionary *)dict;
++ (NSArray *)shops;
 @end

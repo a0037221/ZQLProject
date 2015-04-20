@@ -8,6 +8,12 @@
 
 #import "ZQShopCell.h"
 
+@interface ZQShopCell ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
+
+@end
+
 @implementation ZQShopCell
 
 @end

@@ -47,6 +47,10 @@
                                     <constraint firstAttribute="bottom" secondItem="EgZ-nN-4oX" secondAttribute="bottom" constant="40" id="Zzd-yQ-O2P"/>
                                     <constraint firstItem="EgZ-nN-4oX" firstAttribute="leading" secondItem="mR2-eU-nNP" secondAttribute="leading" id="f69-PC-ddS"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="imgView" destination="EgZ-nN-4oX" id="q6s-Ij-b9K"/>
+                                    <outlet property="priceLabel" destination="JYd-Qz-GAF" id="IzP-c6-tnn"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
