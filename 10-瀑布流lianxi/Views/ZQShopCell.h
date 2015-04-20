@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class ZQShop;
+
 @interface ZQShopCell : UICollectionViewCell
+
+@property(nonatomic,strong) ZQShop *shop;
 
 @end

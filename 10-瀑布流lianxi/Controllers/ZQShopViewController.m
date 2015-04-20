@@ -14,6 +14,8 @@
 
 @property(nonatomic,strong) NSArray *shops;
 
+@property (weak, nonatomic) IBOutlet ZQWaterFlowLayout *lauyout;
+
 @end
 
 @implementation ZQShopViewController
@@ -23,6 +25,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.lauyout.dataList = self.shops;
+    self.lauyout.colunms = 3;
+
     
 }
 
@@ -39,9 +44,10 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"shop_cell" forIndexPath:indexPath];
+    ZQShopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"shop_cell" forIndexPath:indexPath];
     
-    cell.backgroundColor = [UIColor colorWithRed:((float)arc4random_uniform(256) / 255.0) green:((float)arc4random_uniform(256) / 255.0) blue:((float)arc4random_uniform(256) / 255.0) alpha:1.0];
+    
+    cell.shop = self.shops[indexPath.item];
     
     return cell;
 }

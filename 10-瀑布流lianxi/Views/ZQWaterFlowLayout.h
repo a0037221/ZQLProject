@@ -10,4 +10,7 @@
 
 @interface ZQWaterFlowLayout : UICollectionViewFlowLayout
 
+@property(nonatomic,assign) int colunms;
+
+@property(nonatomic,strong) NSArray *dataList;
 @end

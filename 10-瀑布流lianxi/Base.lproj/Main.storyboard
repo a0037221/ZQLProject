@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xTq-4c-K4G" customClass="ZQWaterFlowLayout">
-                            <size key="itemSize" width="152" height="213"/>
+                            <size key="itemSize" width="150" height="215"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -22,15 +22,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="152" height="213"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="215"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EgZ-nN-4oX">
-                                            <rect key="frame" x="0.0" y="0.0" width="152" height="173"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="175"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="150" id="2du-Df-3el"/>
+                                                <constraint firstAttribute="height" constant="175" id="bat-bN-2Uh"/>
+                                            </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYd-Qz-GAF">
-                                            <rect key="frame" x="55" y="184" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <rect key="frame" x="8" y="187" width="40" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="1" green="0.81729501130000004" blue="0.076715662609999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -38,14 +42,10 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="EgZ-nN-4oX" secondAttribute="trailing" id="2F0-6J-WKQ"/>
-                                    <constraint firstItem="JYd-Qz-GAF" firstAttribute="leading" secondItem="mR2-eU-nNP" secondAttribute="leading" constant="55" id="HQh-DC-8Ju"/>
-                                    <constraint firstItem="EgZ-nN-4oX" firstAttribute="top" secondItem="mR2-eU-nNP" secondAttribute="top" id="T34-bq-B7p"/>
-                                    <constraint firstItem="JYd-Qz-GAF" firstAttribute="top" secondItem="EgZ-nN-4oX" secondAttribute="bottom" constant="11" id="TVp-y9-0H0"/>
-                                    <constraint firstAttribute="trailing" secondItem="JYd-Qz-GAF" secondAttribute="trailing" constant="55" id="Xju-vl-tgg"/>
-                                    <constraint firstAttribute="bottom" secondItem="JYd-Qz-GAF" secondAttribute="bottom" constant="8" id="YWH-Zh-QuJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="EgZ-nN-4oX" secondAttribute="bottom" constant="40" id="Zzd-yQ-O2P"/>
-                                    <constraint firstItem="EgZ-nN-4oX" firstAttribute="leading" secondItem="mR2-eU-nNP" secondAttribute="leading" id="f69-PC-ddS"/>
+                                    <constraint firstItem="EgZ-nN-4oX" firstAttribute="top" secondItem="mR2-eU-nNP" secondAttribute="top" id="5Hs-OE-rH8"/>
+                                    <constraint firstAttribute="bottom" secondItem="JYd-Qz-GAF" secondAttribute="bottom" constant="8" id="Nyb-FM-NSE"/>
+                                    <constraint firstItem="JYd-Qz-GAF" firstAttribute="leading" secondItem="mR2-eU-nNP" secondAttribute="leading" constant="8" id="pL8-fZ-BrS"/>
+                                    <constraint firstItem="EgZ-nN-4oX" firstAttribute="leading" secondItem="mR2-eU-nNP" secondAttribute="leading" id="uZP-uW-6wq"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="imgView" destination="EgZ-nN-4oX" id="q6s-Ij-b9K"/>
@@ -58,6 +58,9 @@
                             <outlet property="delegate" destination="ZuA-NU-SDV" id="Ddq-uM-tmM"/>
                         </connections>
                     </collectionView>
+                    <connections>
+                        <outlet property="lauyout" destination="xTq-4c-K4G" id="9kc-4D-bsV"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLt-HL-XrQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,8 @@
 //
 
 #import "ZQShopCell.h"
+#import <UIImageView+WebCache.h>
+#import "ZQShop.h"
 
 @interface ZQShopCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
@@ -15,5 +17,12 @@
 @end
 
 @implementation ZQShopCell
+
+- (void)setShop:(ZQShop *)shop
+{
+    _shop = shop;
+    [self.imgView sd_setImageWithURL:[NSURL URLWithString:shop.img]];
+    self.priceLabel.text = shop.price;
+}
 
 @end
