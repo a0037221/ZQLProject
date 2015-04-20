@@ -26,7 +26,7 @@
     [super viewDidLoad];
     
     self.lauyout.dataList = self.shops;
-    self.lauyout.colunms = 3;
+    self.lauyout.colunms = 2;
 
     
 }

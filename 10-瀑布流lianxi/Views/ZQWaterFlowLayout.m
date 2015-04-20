@@ -46,6 +46,7 @@
     for (ZQShop *shop in self.dataList) {
         //计算itemH
         CGFloat itemH = [self itemH:CGSizeMake(shop.w, shop.h) andItemW:itemW];
+        sumHeight +=itemH;
         
         //计算x和y
         //列索引
